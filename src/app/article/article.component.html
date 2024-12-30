@@ -1,1 +1,12 @@
-<p>article works!</p>
+<div class="card articleInfo">
+  <img [src]="imgSrc" [alt]="textAltImg">
+  <div class="card-body">
+    <h5 class="card-title">{{title}}</h5>
+    <h6 class="card-title">{{price}} FCFA</h6>
+    <p class="card-text">Une description</p>
+    <button class="btn btn-primary" (click)="onLike()" >J'aime</button>
+    <p>Nombre de like : {{totalNbLike}}</p>
+    <input type="text" placeholder="Ecris ton commentaire" [(ngModel)]="comment">
+    <p>COMMENTAIRE : {{comment}}</p>
+  </div>
+</div>

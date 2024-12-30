@@ -1,0 +1,29 @@
+footer {
+  position: absolute;
+  bottom:0;
+  width:100%;
+  background-color: #f2f2f2;
+  text-align: center;
+  height: 100px;
+}
+
+
+#navbar {
+  top: 0;
+  position: fixed;
+  display: flex;
+  width: 100%;
+}
+#home{
+  padding: 5%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /*background-color: red;*/
+  flex-wrap: wrap;
+}
+
+
+
