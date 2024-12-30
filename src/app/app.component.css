@@ -18,23 +18,3 @@ footer {
   z-index: 10;
   position: fixed;
 }
-#home{
-  padding: 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  /*background-color: red;*/
-  flex-wrap: wrap;
-  z-index: 0;
-  position: relative;
-}
-#alertMsg{
-  margin-top: 60px;
-  text-align: center;
-  color: green;
-  font-size: 1.2rem;
-}
-
-
-
