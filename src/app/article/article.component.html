@@ -1,7 +1,7 @@
 <div class="card articleInfo">
-  <img [src]="imgSrc" [alt]="textAltImg">
+  <img [src]="imgSrc" [alt]="textAltImg" id="imgArticle">
   <div class="card-body">
-    <h5 class="card-title">{{title}}</h5>
+    <span><h5 class="card-title" [ngStyle]="{color:getColor()}" >{{title | uppercase}}</h5><span *ngIf="is_dispo===false" > - Indisp</span> <span *ngIf="is_dispo===true" > - Dispo</span> </span>
     <h6 class="card-title">{{price}} FCFA</h6>
     <p class="card-text">Une description</p>
     <button class="btn btn-primary" (click)="onLike()" >J'aime</button>
